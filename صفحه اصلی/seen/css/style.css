@@ -63,9 +63,6 @@ ul {
     background-color: #f7f8fd;
 }
 
-img {
-    /* width: 100%; */
-}
 
 a {
 
@@ -84,8 +81,6 @@ ul {
     top: 0;
     left: 0;
 }
-
-.center_nav {}
 
 .active {
     background-image: linear-gradient(71deg, #3ac2ff 50%, #2f56ff);
@@ -306,9 +301,6 @@ ul {
         min-width: 27px;
     }
 
-    .section-log h3 {
-        /* font-size: 0.5rem; */
-    }
 
     .group_icon a svg {
         width: 10px;
@@ -433,9 +425,11 @@ ul {
 .tarikhi {
     display: flex;
     width: 60rem;
-    height: 15rem;
+    height: auto;
     margin-bottom: 4rem;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-between;
 }
 
@@ -462,6 +456,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     justify-content: center;
     transition: all 200ms ease-in-out;
 }
@@ -507,45 +502,14 @@ ul {
 }
 
 
-.daste {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.ganrs {
-    display: flex;
-    align-items: center;
-    gap: .3rem;
-}
-
-.ganrs div span {
-    border: 1px solid #9bccf4;
-    padding-right: 3.5rem;
-    padding-left: 3.5rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    border-radius: .5rem;
-    background-color: rgba(187, 238, 255, 0.1);
-    transition: all 300ms ease-in-out;
-}
-
-.books:hover {
-    background-color: #9bccf4;
-
-}
 
 
 
-#title {
-    padding-right: 24.5rem;
-    padding-left: 25.5rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    border-radius: .5rem;
-}
+
+
+
+
+
 
 .ketabdar {
     font-size: 4rem;
@@ -623,9 +587,7 @@ ul {
     margin-top: .75rem;
 }
 
-.booksganr {
-    font-size: 35px;
-}
+
 
 .second {
     display: flex;

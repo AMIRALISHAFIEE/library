@@ -18,10 +18,6 @@ bookIinformationKhosro.addEventListener("keydown",function (event) {
     bookIinformationKhosro.style.display="none"
 })
 
-
-
-
-
 let flag=false
 function image() {
     if (flag) {
